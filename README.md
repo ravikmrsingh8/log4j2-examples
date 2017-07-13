@@ -30,10 +30,7 @@ The layout layer provides objects which are used to format logging information i
 There are other important objects in the log4j framework that play a vital role in the logging framework
 
 - Level Object:
-The Level object defines the granularity and priority of any logging information. There are seven levels of logging defined within the API: OFF, DEBUG, INFO, ERROR, WARN, FATAL, and ALL. Loggers can be assigned levels in the following order.
-
-<img src = "https://i2.wp.com/springframework.guru/wp-content/uploads/2016/02/Log_Levels.png?w=379"/>
-
+The Level object defines the granularity and priority of any logging information. There are seven levels of logging defined within the API: OFF, DEBUG, INFO, ERROR, WARN, FATAL, and ALL. 
 - Filter Object 
 The Filter object is used to analyze logging information and make further decisions on whether that information should be logged or not.
 An Appender objects can have several Filter objects associated with them. If logging information is passed to a particular Appender object, all the Filter objects associated with that Appender need to approve the logging information before it can be published to the attached destination.
